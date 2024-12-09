@@ -72,9 +72,6 @@ inputs:
       title: ENVIRONMENT VARIABLES
       summary: environments variable
       description: environments variable
-      value_options:
-      - "yes"
-      - "no"
   - semantic_debugger_enabled: value of debugger enabled
     opts:
       title: DEBUGGER VARIABLE
@@ -101,9 +98,9 @@ inputs:
       - "false"
   - build_number: value of build number
     opts:
-      title: CERT PINNING VARIABLE
-      summary: cert pinning variable
-      description: cert pinning variable
+      title: BUILD NUMBER VARIABLE
+      summary: value of build number
+      description: value of build number
   - brand: brand for the application
     opts:
       title: BRAND
