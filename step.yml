@@ -72,6 +72,15 @@ inputs:
       title: ENVIRONMENT VARIABLES
       summary: environments variable
       description: environments variable
+  - brand: brand for the application
+    opts:
+      title: BRAND
+      summary: brand for the application
+      description: brand for the application
+      value_options:
+      - "cattolica"
+      - "alleanza"
+      - "generali"
   - semantic_debugger_enabled: value of debugger enabled
     opts:
       title: DEBUGGER VARIABLE
@@ -101,13 +110,4 @@ inputs:
       title: BUILD NUMBER VARIABLE
       summary: value of build number
       description: value of build number
-  - brand: brand for the application
-    opts:
-      title: BRAND
-      summary: brand for the application
-      description: brand for the application
-      value_options:
-      - "cattolica"
-      - "alleanza"
-      - "generali"
 
