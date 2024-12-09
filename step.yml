@@ -72,21 +72,33 @@ inputs:
       title: ENVIRONMENT VARIABLES
       summary: environments variable
       description: environments variable
+      value_options:
+      - "yes"
+      - "no"
   - semantic_debugger_enabled: value of debugger enabled
     opts:
       title: DEBUGGER VARIABLE
       summary: debugger variable
       description: debugger variable
+      value_options:
+      - "true"
+      - "false"
   - enable_anti_tampering: value of anti tampering
     opts:
       title: ANTI TAMPERING VARIABLE
       summary: anti tampering variable
       description: anti tampering variable
+      value_options:
+      - "true"
+      - "false"
   - disable_cert_pinning: value of cert pinning
     opts:
       title: CERT PINNING VARIABLE
       summary: cert pinning variable
       description: cert pinning variable
+      value_options:
+      - "true"
+      - "false"
   - build_number: value of build number
     opts:
       title: CERT PINNING VARIABLE
@@ -97,4 +109,8 @@ inputs:
       title: BRAND
       summary: brand for the application
       description: brand for the application
+      value_options:
+      - "cattolica"
+      - "alleanza"
+      - "generali"
 
