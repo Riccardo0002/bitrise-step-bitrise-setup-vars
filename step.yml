@@ -94,7 +94,7 @@ inputs:
       description: cert pinning variable
   - brand: brand for the application
     opts:
-        title: BRAND
-        summary: brand for the application
-        description: brand for the application
+      title: BRAND
+      summary: brand for the application
+      description: brand for the application
 
